@@ -1,0 +1,98 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Mengatur font dan background */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+/* Data Diri */
+#data-diri {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#data-diri img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+#data-diri ul {
+    list-style-type: none;
+}
+
+#data-diri ul li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+/* Materi Biologi */
+#materi {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Video */
+#video {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Download Links */
+#download {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#download ul {
+    list-style-type: none;
+}
+
+#download ul li {
+    margin-bottom: 10px;
+}
+
+#download a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1.1rem;
+}
+
+#download a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #777;
+}
